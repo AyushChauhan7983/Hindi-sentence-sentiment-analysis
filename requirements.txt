@@ -1,5 +1,4 @@
 pandas
-codecs
 nltk
 scikit-learn
 re
