@@ -1,9 +1,12 @@
 # This module is written to do a Resource Based Semantic analysis using hindi sentiwordnet.
+import nltk
 import pandas as pd
 import codecs
 from nltk.tokenize import word_tokenize
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
+
+nltk.download('punkt')
 
 data = pd.read_csv("HindiSentiWordnet.txt", delimiter=' ')
 
