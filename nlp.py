@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from nltk.tokenize import word_tokenize
 
-data = pd.read_csv("C:\\Users\\Ayush\\PycharmProjects\\hindi-sentence-sentiment-analysis-main\\HindiSentiWordnet.txt", delimiter=' ')
+data = pd.read_csv("HindiSentiWordnet.txt", delimiter=' ')
 
 fields = ['POS_TAG', 'ID', 'POS', 'NEG', 'LIST_OF_WORDS']
 
